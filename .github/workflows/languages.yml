@@ -16,9 +16,9 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: beatrizmagalhaes98
-          template: classic
           base: ""
           plugin_languages: yes
+          plugin_languages_limit: 8
           output_action: commit
           committer_branch: languages-output
           filename: languages.svg
